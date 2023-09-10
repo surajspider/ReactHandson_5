@@ -3,6 +3,7 @@ import { Route, Routes, NavLink } from 'react-router-dom';
 import PureCompo from '../PureCompo/PureCompo';
 import HOCcompo from '../HOCcompo/HOCcompo';
 import HOCData from '../HOCcompo/HOCData';
+import NormalCompo from '../PureCompo/NormalCompo';
 function RouteCompo() {
     return (
         <div>
@@ -16,7 +17,7 @@ function RouteCompo() {
             </div>
             <Routes>
                 <Route path='/HOC' element={<HOCcompo value={HOCData} />}></Route>
-                <Route path="/Pure" element={<PureCompo />}></Route>
+                <Route path="/Pure" element={<PureCompo value={NormalCompo} />}></Route>
             </Routes>
         </div>
     )

@@ -1,0 +1,23 @@
+.link {
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 2px rgb(169, 71, 71);
+    border-radius: 10px;
+}
+
+.h2hoc {
+    padding: 0px 40px 0px 40px;
+}
+
+.prime {
+    padding: 20px;
+}
